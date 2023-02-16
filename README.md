@@ -5,6 +5,8 @@ Provides a reference from which the angular movement of an aircraft can be measu
 
 [images](./images)
 
+[video](https://youtu.be/J3WKJNWqx1A)
+
 ![testrig](./images/testrig.jpg)
 
 ![schematic](./images/schematic.jpg)
@@ -13,4 +15,15 @@ Provides a reference from which the angular movement of an aircraft can be measu
 
 ![phase](./images/rotation.jpg)
 
+|Pin(12)|Pin(6)|Colour|Name|
+|-------|------|------|----|
+|-|E|Orange|Test|
+|H|A|Red|Phase|
+|J|B|Green|Phase|
+|K|C|Blue|Common|
+|-|D|Yellow|Test|
+
+ * Outer two neons are erection test lamps, should flash on from time to time.
+ * Inner neons, One conected to red wire should be lit, One connected to blue wire should be off. Phase missing or rotation error otherwise.
+ 
 ![neons](./images/neons.jpg)
