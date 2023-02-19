@@ -5,7 +5,9 @@ Provides a reference from which the angular movement of an aircraft can be measu
 
 [images](./images)
 
-[video](https://youtu.be/J3WKJNWqx1A)
+ * Gyro synchro output test on turntable
+
+[turntable](https://youtu.be/srLLdCGvYok)
 
 ![testrig](./images/testrig.jpg)
 
@@ -21,6 +23,7 @@ Provides a reference from which the angular movement of an aircraft can be measu
 <br>
 
 ### Connector 12 way
+
 |Pin(12)|Function|
 |-------|--------|
 |   A   |Monitor|W|
@@ -36,10 +39,8 @@ Provides a reference from which the angular movement of an aircraft can be measu
 |   L   |n/c|-|
 |   M   |Link to J|B|
 
-
-![phase](./images/rotation.jpg)
-
 ### Connector 6 way
+
 |Pin(12)|Pin(6)|Colour|Name|
 |-------|------|------|----|
 |H|A|Red|Phase-A|
@@ -49,7 +50,34 @@ Provides a reference from which the angular movement of an aircraft can be measu
 |-|E|Orange|Test|
 |-|F|None|n/a|
 
+ * Timelapse video showing drift
+[drift](https://youtube.com/shorts/jlOQigvoOJI)
+
+ * Timelapse video showing monitor adjustments
+[monitor](https://youtube.com/shorts/bpBCVN842Ug)
+
+ * Realtime video showing erect test outputs 
+[erect](https://youtu.be/J3WKJNWqx1A)
+
+
+
  * Outer two neons are erection test lamps, should flash on from time to time.
  * Inner neons, One conected to red wire should be lit, One connected to blue wire should be off. Phase missing or rotation error otherwise.
  
 ![neons](./images/neons.jpg)
+
+|Rotation|NE2|NE3|
+|--------|---|---|
+|   A-B-C|On |Off|
+|   B-A-C|Off|On |
+<br>
+
+|Erection|NE1|NE4|
+|--------|---|---|
+|  Steady|Off|Off|
+|  Right |On |Off|
+|  Left  |Off|On |
+<br>
+
+![neons](./images/neons.png)
+
